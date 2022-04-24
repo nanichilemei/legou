@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/find/find",
+    "pages/kind/kind",
+    "pages/user/user",
+    "pages/kind/goodsList/goodslist",
+    "pages/goodsdetail/goodsdetail",
+    "pages/user/login/login",
+    "pages/user/order/order",
+    "pages/find/articledetail/articledetail",
+    "pages/user/address/address",
+    "pages/user/modify/modify",
+    "pages/user/register/register",
+    "pages/user/cart/cart",
+    "pages/user/address/editaddress/editaddress",
+    "pages/user/myorder/myorder",
+    "pages/user/payment/payment",
+    "pages/user/myorder/tuidan/tuidan"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "乐居",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#435950",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/kind/kind",
+        "text": "分类",
+        "iconPath": "static/icons/kind.png",
+        "selectedIconPath": "static/icons/kind-active.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "static/icons/find.png",
+        "selectedIconPath": "static/icons/find-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

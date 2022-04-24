@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "乐 居",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#354e44",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home.data-v-92bb8f34 {
+  width: 100%;
+  background-color: #f1ece7;
+}
+.home .banner.data-v-92bb8f34 {
+  width: 100%;
+  height: 516rpx;
+  position: relative;
+}
+.home .banner .list.data-v-92bb8f34 {
+  width: 100%;
+  height: 100%;
+}
+.home .banner .list .img.data-v-92bb8f34 {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.home .banner .diagram.data-v-92bb8f34 {
+  padding: 20rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.home .banner .diagram image.data-v-92bb8f34 {
+  width: 36rpx;
+  height: 36rpx;
+  margin: 20rpx;
+}
+.home .nav.data-v-92bb8f34 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 31rpx 0;
+  padding: 20rpx;
+}
+.home .nav .item.data-v-92bb8f34 {
+  text-align: center;
+}
+.home .nav .item .img.data-v-92bb8f34 {
+  width: 80rpx;
+  height: 80rpx;
+}
+.home .activity.data-v-92bb8f34 {
+  display: flex;
+  align-items: center;
+  width: 670rpx;
+  height: 96rpx;
+  margin: 40rpx;
+  background-color: #fff;
+}
+.home .activity .icon.data-v-92bb8f34 {
+  margin-left: 40rpx;
+}
+.home .activity .icon image.data-v-92bb8f34 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.home .activity .text.data-v-92bb8f34 {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #ffa500;
+  margin-left: 10rpx;
+}
+.home .activity .ads.data-v-92bb8f34 {
+  width: 60%;
+  height: 100%;
+  line-height: 100%;
+}
+.home .activity .ads .swiper-item.data-v-92bb8f34 {
+  font-size: 20rpx;
+  display: flex;
+  text-indent: .5rem;
+}
+.home .activity .ads .swiper-item .name.data-v-92bb8f34 {
+  font-size: 34rpx;
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.home .activity .ads .swiper-item .text-price.data-v-92bb8f34 {
+  font-size: 24rpx;
+  height: 100rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+}
+.home .activity .ads .swiper-item .text-price .price.data-v-92bb8f34 {
+  text-decoration: line-through;
+}
+.home .activity .ads .swiper-item .text-price .now-price.data-v-92bb8f34 {
+  color: red;
+}
+.home .hot.data-v-92bb8f34 {
+  padding: 30rpx;
+}
+.home .hot .text.data-v-92bb8f34 {
+  font-size: 40rpx;
+  font-weight: 700;
+  padding: 40rpx 0;
+  color: #323232;
+}
+.home .hot .nav.data-v-92bb8f34 {
+  margin: 0;
+  padding: 0;
+}
+.home .hot .nav .item.data-v-92bb8f34 {
+  width: 230rpx;
+  height: 150rpx;
+}
+.home .hot .nav .item image.data-v-92bb8f34 {
+  margin: 0 20rpx;
+  width: 100%;
+  height: 100%;
+}
+.home .new.data-v-92bb8f34 {
+  padding: 30rpx;
+}
+.home .new .text.data-v-92bb8f34 {
+  font-size: 40rpx;
+  font-weight: 700;
+  padding: 40rpx 0;
+  color: #323232;
+}
+.home .new .list.data-v-92bb8f34 {
+  display: flex;
+  overflow-x: auto;
+}
+.home .new .list .item.data-v-92bb8f34 {
+  width: 590rpx;
+  height: 260rpx;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 0 20rpx;
+  border-radius: 20rpx;
+}
+.home .new .list .item .img.data-v-92bb8f34 {
+  width: 194rpx;
+  height: 168rpx;
+  margin: 0 20rpx;
+}
+.home .new .list .item .img image.data-v-92bb8f34 {
+  width: 100%;
+  height: 100%;
+}
+.home .new .list .item .describe.data-v-92bb8f34 {
+  width: 320rpx;
+  height: 160rpx;
+  padding: 50rpx 0;
+}
+.home .new .list .item .describe .name.data-v-92bb8f34 {
+  margin-bottom: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .new .list .item .describe .price.data-v-92bb8f34 {
+  margin-top: 50rpx;
+}
+.home .like.data-v-92bb8f34 {
+  padding: 30rpx;
+}
+.home .like .text.data-v-92bb8f34 {
+  font-size: 40rpx;
+  font-weight: 700;
+  padding: 40rpx 0;
+  color: #323232;
+}
+.home .like .list.data-v-92bb8f34 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home .like .list .item.data-v-92bb8f34 {
+  width: 48%;
+  height: 415rpx;
+  background-color: #fff;
+  margin: 20rpx 6rpx;
+}
+.home .like .list .item .img.data-v-92bb8f34 {
+  height: 238rpx;
+}
+.home .like .list .item .img image.data-v-92bb8f34 {
+  width: 100%;
+  height: 100%;
+}
+.home .like .list .item .describe.data-v-92bb8f34 {
+  padding: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-indent: 0.5rem;
+}
+.home .like .list .item .describe .name.data-v-92bb8f34 {
+  margin-bottom: 40rpx;
+}
+

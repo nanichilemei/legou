@@ -1,0 +1,194 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+	
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/kind/kind",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/kind/goodsList/goodslist",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/goodsdetail/goodsdetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+
+		, {
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/order/order",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/find/articledetail/articledetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/modify/modify",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/cart/cart",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/user/address/editaddress/editaddress",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/payment/payment",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/user/myorder/tuidan/tuidan",
+			"style": {
+				"navigationBarTitleText": "乐 居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#435950",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png"
+			},
+			{
+				"pagePath": "pages/kind/kind",
+				"text": "分类",
+				"iconPath": "static/icons/kind.png",
+				"selectedIconPath": "static/icons/kind-active.png"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "发现",
+				"iconPath": "static/icons/find.png",
+				"selectedIconPath": "static/icons/find-active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/icons/mine.png",
+				"selectedIconPath": "static/icons/mine-active.png"
+			}
+
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "乐居",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

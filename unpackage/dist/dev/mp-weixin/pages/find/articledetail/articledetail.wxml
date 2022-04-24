@@ -1,0 +1,1 @@
+<view class="article"><view class="box"><view class="_h2">{{productArticle.title}}</view><view class="right _p">{{"作者:"+productArticle.author}}</view><view class="right _p">{{"时间: "+productArticle.modifyTime}}</view><view class="_p">{{"概述描述："+productArticle.summary}}</view><image class="img" src="{{productArticle.coverImg}}" mode></image></view></view>
